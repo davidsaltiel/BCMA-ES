@@ -24,7 +24,7 @@ from mpl_toolkits.mplot3d import Axes3D
 class Test_Functions(object):
     def __init__(self):
         module_path = dirname(__file__)
-        path_plot = join(module_path,'plot')
+        path_plot = join(module_path,'..','Plot')
         self.module_path = module_path
         self.path_plot = path_plot
     '''
@@ -396,5 +396,5 @@ class Test_Functions(object):
         
         # Add a color bar which maps values to colors.
         #fig.colorbar(surf, shrink=0.5, aspect=5)
-        plt.savefig(self.path_plot+'\\'+func_name+'.png')
+        plt.savefig(self.path_plot+'\\'+'Functions\\'+func_name+'.png')
         plt.show()
