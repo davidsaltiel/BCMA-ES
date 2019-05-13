@@ -1,3 +1,3 @@
 #ignore files
-
-
+_CMAESDataLogger_datadict.py
+__pycache__/
